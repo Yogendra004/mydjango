@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{%block title%}
+ My blog
+{%endblock%}
+
+{%block content%}
+<header id="main-navigation">
+    <h1><a href="">Yogi's Blog </a></h1>
+    <nav>
+        <a href="">All posts </a>
+    </nav>
+</header>
+<section id="welcome"> 
+    <header>
+        <img src="" alt="Yogi-the author of this blog" />
+        <h2> Yogendra's Blogs </h2>
+         </header>
+         <p> Hello, I love to talk about tech and the world!</p>
+</section>
+<section id="latest-posts">
+    <h2>My latest thoughts </h2>
+    <ul>
+        <li>
+             <article class="post"> 
+                <a href=""> 
+                    <img src="" alt="mountains" />
+                        <div class="post__content"> </div>
+                        <h3> Mountain hiking</h3>
+                            <p> mountain, landform that rises prominently above its surroundings, 
+                        generally exhibiting steep slopes, a relatively confined summit area, 
+                        and considerable local relief. Mountains generally are understood to be 
+                        larger than hills, but the term has no standardized geological meaning.
+                            </p>
+                </a>
+
+
+             </article>
+        <li>
+    </ul>
+
+</section>
+
+<sectiom id="about" >
+    <h2>What i do </h2>
+    <p>i love programming </p>
+    <p> My goal is to become no1 full stack developer in the world </p>
+ </section>
+
+{%endblock%}
